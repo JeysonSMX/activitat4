@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nombre y apellidos del estudiante">
+    <meta name="description" content="Características y precios de las habitaciones de Hotel Terror.">
+    <meta name="keywords" content="Hotel Terror, Precios, Habitaciones, Tarifas">
+    <title>Hotel Terror - Precios</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="img/logo.png" alt="Logo Hotel Terror 4 estrellas">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="precios.html" class="active">Precios</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-pagina">
+            <h1 class="main-title"><span class="blue-title">Hotel Terror:</span> Características y precios</h1>
+            
+            <table class="tabla-precios">
+                <thead>
+                    <tr>
+                        <th>Tipo de Habitación</th>
+                        <th>Personas</th>
+                        <th>Características</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Habitación individual -->
+                    <tr>
+                        <td class="nombre-hab">Habitación individual</td>
+                        <td class="icona-persona">👤</td>
+                        <td class="caracteristicas">Baño compartido, 20m², Microondas</td>
+                        <td>70 €</td>
+                    </tr>
+                    
+                    <!-- Habitación doble -->
+                    <tr>
+                        <td class="nombre-hab" rowspan="2">Habitación doble (1 o 2 camas)</td>
+                        <td class="icona-persona">👤👤</td>
+                        <td class="caracteristicas" rowspan="2">Baño privado, 30m², Microondas</td>
+                        <td>120 €</td>
+                    </tr>
+                    <tr>
+                        <td class="icona-persona">👤</td>
+                        <td>90 €</td>
+                    </tr>
+
+                    <!-- Habitación doble superior -->
+                    <tr>
+                        <td class="nombre-hab">Habitación doble superior</td>
+                        <td class="icona-persona">👤👤</td>
+                        <td class="caracteristicas">Baño privado, 35m², Zona de cocina, Cama doble</td>
+                        <td>140 €</td>
+                    </tr>
+
+                    <!-- Habitación triple -->
+                    <tr>
+                        <td class="nombre-hab" rowspan="3">Habitación triple (1, 2 o 3 camas)</td>
+                        <td class="icona-persona">👤👤👤</td>
+                        <td class="caracteristicas" rowspan="3">Baño privado, 40m², Zona de cocina</td>
+                        <td>150 €</td>
+                    </tr>
+                    <tr>
+                        <td class="icona-persona">👤👤</td>
+                        <td>130 €</td>
+                    </tr>
+                    <tr>
+                        <td class="icona-persona">👤</td>
+                        <td>100 €</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Características comunes: WiFi gratis / TV de pantalla plana / Aire acondicionado</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p>Actividad realizada por <strong>Nombre y apellidos del estudiante</strong></p>
+            <div class="footer-cc">
+                <span>Fotografías de la portada <a href="https://unsplash.com/" target="_blank" rel="noopener">Unsplash</a></span>
+                <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+                    <img src="img/creative-commons.png" alt="Licencia Creative Commons BY-SA 4.0">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
