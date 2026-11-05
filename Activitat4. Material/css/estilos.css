@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
 }
 
-/* --- Capçalera i Menú de Navegació Verd --- */
+/* --- Cabecera y Menú Superior --- */
 header {
     background-color: #378b27;
     display: flex;
@@ -51,15 +51,15 @@ nav a.active {
     text-decoration: underline;
 }
 
-/* --- Contenidor Principal --- */
+/* --- Contenedor Principal --- */
 main {
     flex: 1;
     width: 100%;
 }
 
-/* --- Portada / Index (index.html) --- */
+/* --- Portada (index.html) --- */
 .hero-index {
-    background: url('../img/fondoindex.jpg') no-repeat center center / cover;
+    background: url('../img/casa_encantada.jpg') no-repeat center center / cover;
     min-height: calc(100vh - 170px);
     padding: 40px 50px;
 }
@@ -80,7 +80,7 @@ main {
     text-shadow: 1px 1px 2px #000;
 }
 
-/* --- Secció Preus i Reserva --- */
+/* --- Secciones Generales --- */
 .container-pagina {
     max-width: 950px;
     margin: 30px auto;
@@ -99,7 +99,7 @@ main {
     font-weight: bold;
 }
 
-/* --- Taula de Preus (precios.html) --- */
+/* --- Tabla de Precios (precios.html) --- */
 .tabla-precios {
     width: 100%;
     border-collapse: collapse;
@@ -121,7 +121,7 @@ main {
 }
 
 .tabla-precios td {
-    padding: 12px 15px;
+    padding: 10px 15px;
     border: 1px solid #dcdcdc;
     text-align: center;
     font-size: 14px;
@@ -149,13 +149,13 @@ main {
     font-size: 15px;
 }
 
-/* Icones de persones dins la taula */
-.icona-persona {
-    font-size: 18px;
-    letter-spacing: 2px;
+.img-persona {
+    height: 24px;
+    width: auto;
+    vertical-align: middle;
 }
 
-/* --- Formulari de Reserva (reserva.html) --- */
+/* --- Formulario de Reserva (reserva.html) --- */
 .caja-formulario {
     background-color: #d8d8d8;
     padding: 40px;
@@ -224,7 +224,7 @@ legend {
     cursor: pointer;
 }
 
-/* --- Peu de Pàgina Verd --- */
+/* --- Pie de Página --- */
 footer {
     background-color: #378b27;
     color: #000000;
